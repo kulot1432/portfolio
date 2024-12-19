@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="image/logo.png" class="logo">
+            <ul id="sidemenu">
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#language">Coding Language</a></li>
+                <li><a href="#favoriteseries">Favorite movies</a></li>
+                <li><a href="#contact">Contact</a></li>              
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>IT/Programmer</p>
+            <h1>Hi, I'm <span>Rheniel</span><br>Torremocha</h1>
+        </div>
+        </div>
+    </div>
+                        <!---------- About Me--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/profile.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I am Rheniel Torremocha from BSIT-3A, and I’d like to share a bit about myself. I’m a big fan of watching series, movies, and boys' love stories—they make my day happier and serve as my source of comfort. Beyond that, I’m very family-oriented. I love spending quality time with my family, as they are my biggest support system and the people who inspire me to work hard and chase my dreams.</p>
+                    <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Fav Food</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Fav Band</p>
+                            <p class="tab-links" onclick="opentab('Education')">Fav Anime/manhua</p>
+                        </div>
+                        <!----------  food --------->
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Breakfast</span><br>Fresh Salad</li>
+                                <li><span>Main course </span><br>Letchon Baboy</li>
+                                <li><span>Seafoods</span><br>Prawn Soup</li>
+                            </ul>
+                        </div>
+                        <!----------  band --------->
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Ben & Ben Band</span><br>Leaves</li>
+                                <li><span>Wave to Eartj</span><br>Love</li>
+                                <li><span>Cigarate After Sex</span><br>Apocalypes</li>
+                            </ul>
+                        </div>
+                        <!----------  anime/manhua --------->
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Anime</span><br>One Piece</li>
+                                <li><span>manhua</span><br>Solo Leveling</li>
+                                <li><span>BL</span><br>Jinx</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        <!----------  Coding Language --------->
+    <div id="language">
+        <div class="container">
+            <h1 class="sub-title"> Learned Coding Language</h1>
+            <div class="language-list">
+                <div>
+                    <h2>Java</h2>
+                    <p>Java is a programming language and software platform that's used to create a variety of applications, including mobile apps, enterprise software, and web applications</p>
+                </div>
+                <div>
+                    <h2>JavaScript</h2>
+                    <p>Embarking on my JavaScript learning journey has been incredibly exciting. With each line of code, I'm gaining a deeper understanding of how to manipulate web elements and create interactive experiences. I'm constantly amazed at the power of JavaScript to transform static web pages into dynamic applications. While the learning curve can be steep at times, I find the challenge invigorating. Every problem I solve and every concept I grasp brings me closer to mastering this versatile language. I'm excited to see where my JavaScript skills will take me in the future.</p>  
+                </div>
+                <div>
+                    <h2>HTML + CSS</h2>
+                    <p>Learning HTML and CSS has been a thrilling journey into the world of web development. It's like painting with code, where I can structure the content of a webpage using HTML and then style it with CSS to create visually appealing layouts. Each new project is an opportunity to experiment with different design techniques and bring my creative vision to life. The satisfaction of seeing a website come together, from the initial HTML structure to the final CSS styling, is truly rewarding.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+                        <!----------  Favorite movie --------->
+        <div id="favoriteseries">
+            <div class="fcontainer">
+                <h1 class="sub-title"> Favorite Series</h1>
+                <div class="fav-list">
+                    <div class="fav">
+                        <img src="Image/cover1.jpg">
+                        <div class="layer">
+                            <h2>One Peice</h2>
+                            <p>One Piece is an epic pirate adventure manga and anime series that follows the journey of Monkey D. Luffy and his colorful crew, the Straw Hat Pirates, as they sail the Grand Line in search of the legendary treasure, the One Piece. With its vibrant world-building, unforgettable characters, and thrilling adventures, One Piece has captured the hearts of millions worldwide. The series is renowned for its epic battles, heartfelt moments, and a touch of humor, making it a beloved classic among anime fans.</p>    
+                        </div>
+                    </div>
+                    <div class="fav">
+                        <img src="Image/cover2.jpg">
+                        <div class="layer">
+                        <h2>The Legend of the Blue Sea</h2>
+                        <p>The Legend of the Blue Sea is a captivating love story between a cunning con artist and a naive mermaid, blending fantasy and romance in a heartwarming and humorous tale.</p>        
+                    </div>
+                    </div>
+                    <div class="fav">
+                        <img src="Image/cover3.jpg">
+                        <div class="layer">                       
+                        <h2>Bad Buddy Series</h2>
+                        <p>Bad Buddy is a heartwarming Thai BL series that follows the story of two lifelong rivals, Pran and Pat. Despite their constant bickering and competitive nature, they gradually develop feelings for each other, leading to a beautiful and complex love story. The series is praised for its realistic portrayal of young love, its well-developed characters, and its stunning cinematography. It's a must-watch for fans of the BL genre and anyone who appreciates a good love story.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <!----------  Contact --------->
+    <div id="contact">
+        <div class="container">
+            <div class="contact-center">
+                <h1 class="sub-title">Contact</h1>
+                <div class="typeofcontact">
+                    <div>
+                        <h2></i><br>Email</h2>
+                        <p>rheniel.torremocha@bisu.edu.ph  </p>
+                        
+                    </div>
+                    <div>
+                        <h2><br>Phone Number</h2>
+                        <p>09275811967</p>
+                        
+                    </div>
+                    <div>
+                        
+                        <h2><br>FaceBook</h2>
+                        <p>Kylie Torremocha</p>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <p>&copy; 2024 Rheniel Torremocha. All rights reserved.</p>
+    </footer>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link"); 
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab"); 
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+        var sidemeno = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeno.style.right = "0";
+        }
+        function closemenu(){
+            sidemeno.style.right = "-500px";
+        }
+    </script>
+</body>
+</html>
